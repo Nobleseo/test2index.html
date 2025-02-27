@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GMe - The Ultimate Blockchain Game Token">
-    <title>GMe Token - The Future of Gaming</title>
-    
+    <meta name="description" content="GMe - The Ultimate Blockchain Gaming Token">
+    <title>GMe Token - Powering the Future of Gaming</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
     <!-- 🌟 Styles -->
     <style>
         /* General Styles */
@@ -13,16 +16,17 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #1a0000, #000);
+            background: #0a0a0a;
             color: #fff;
             text-align: center;
             overflow-x: hidden;
         }
         h1, h2 {
-            color: #ff3d00;
+            font-family: 'Orbitron', sans-serif;
             text-transform: uppercase;
             font-weight: bold;
             letter-spacing: 2px;
+            color: #ff3d00;
         }
         .container {
             width: 85%;
@@ -30,20 +34,20 @@
             padding: 50px 20px;
         }
 
-        /* 🚀 Hero Section */
+        /* 🌟 Hero Section */
         .hero {
-            background: url('placeholder-bg.jpg') no-repeat center center/cover;
+            background: linear-gradient(135deg, #260000, #000);
             height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+            text-align: center;
             position: relative;
             overflow: hidden;
         }
         .hero img {
-            width: 150px;
+            width: 160px;
             animation: fadeIn 2s ease-in-out;
         }
         .hero h1 {
@@ -77,26 +81,22 @@
             transform: scale(1.05);
         }
 
-        /* 🔥 Tokenomics Section */
+        /* 🔥 Tokenomics */
         .tokenomics {
-            background: #222;
+            background: #111;
             padding: 50px 20px;
         }
         .tokenomics img {
-            width: 120px;
-            animation: popUp 1.5s ease-in-out;
-        }
-        .tokenomics p {
-            font-size: 1.3rem;
-            max-width: 800px;
+            width: 100%;
+            max-width: 500px;
             margin: auto;
-            opacity: 0;
-            animation: fadeIn 2s ease-in-out forwards;
+            display: block;
+            animation: popUp 1.5s ease-in-out;
         }
 
         /* 📅 Roadmap */
         .roadmap {
-            background: #111;
+            background: #222;
             padding: 60px 20px;
         }
         .roadmap ul {
